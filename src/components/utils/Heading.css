@@ -1,0 +1,44 @@
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* padding: 30px; */
+    font-size: 25px;
+    font-weight: 500;
+    padding: 15px;
+
+    /*  */
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 20px; */
+}
+
+.heading-text {
+  position: relative;
+  font-size: 25px;
+  font-weight: 500;
+  cursor: pointer;
+  color: white;
+}
+
+/* Underline effect only under text */
+.heading-text::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -5px; /* space between text and line */
+  width: 0;
+  height: 3px;
+  background-color: yellow;
+  transition: width 0.4s ease-in-out;
+}
+
+/* Animate underline on hover */
+.heading-text:hover::after {
+  width: 100%;
+}

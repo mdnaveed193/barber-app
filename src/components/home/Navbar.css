@@ -1,0 +1,16 @@
+
+.logo {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.links a {
+  padding: 5px 8px;
+  /* border: 0.5px solid green; */
+  font-size: 17px;
+  transition: color 0.3s ease;
+}
+.links a:hover {
+  color: rgb(228, 164, 28);
+}
