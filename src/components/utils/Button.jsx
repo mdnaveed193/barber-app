@@ -1,5 +1,5 @@
 import React from 'react'
-import './btn.css'
+import './Btn.css'
 function Button({text}) {
   return (
     <div className='btn text-white bg-yellow-500' >
